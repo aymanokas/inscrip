@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>M</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+      background : url('back.jpg') no-repeat center / cover
+;
+    }
+    .wrong {
+        border : solid red
+    }
+ .jumbotron{
+  background-color:rgba(255,255,255,0.1) !important;
+  border-radius: 2%;
+  padding-top: 5%;
+ }
+ h1{
+   color:#ffffffb3!important;
+   font-weight:bold;
+   margin-bottom:5px;
+ }
+ .text-muted {
+    color: #4e95d4!important;
+}
+ h4{
+  color:#ffffffb3!important;
+  font-size: 1.5em;
+ }
+
+    @media (max-width: 559px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 560px) and (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 700px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 600px;
+       
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+  </style>
+</head>
+
+<body>
+
+  <div class="view">  
+      <div class="mask rgba-black-strong">      
+        <div class="container" style="margin-top:6%">
+          <div id="top-jumbotron" class="text-center jumbotron">
+            <div id="logo">
+              <img style="height: 167px;float:left;margin-right: -15%;" class="img-fluid" src="img/LogoBlanc.png" alt="logo">
+            </div>
+              <h1 id="question" class="text-center" style="margin-bottom:6%">Etes-vous ancient ou nouveau membre ?</h1>
+              <div id="button-choice">
+                    <button class="btn btn-outline-white " onClick="onAncient()"  role="button">Ancient</button>
+                    <button class="btn btn-outline-white " onClick="onNouveau()" role="button">Nouveau</button>
+            </div>
+            </div>
+           <div id="test"></div>
+            </div>
+      </div>
+</div>
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small wow fadeIn" style="padding-top:1.5rem!important">
+  
+
+      <div class="footer-copyright py-3" >
+        © 2018 Copyright:
+        <a href="#" target="_blank"> Robotics </a>
+      </div>
+  </footer>
+
+  <script type="text/javascript" src="./myScript.js"></script>
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+</body>
+
+</html>
